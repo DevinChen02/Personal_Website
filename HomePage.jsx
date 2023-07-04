@@ -9,10 +9,10 @@ const HomePage = () => {
 
             <nav>
                 <ul>
-                    <li><Link to="/objective">Objective</Link></li>
-                    <li><Link to="/courses">Courses</Link></li>
-                    <li><Link to="/internships">Internships</Link></li>
-                    <li><Link to="/research">Research</Link></li>
+                    <li><Link to="ObjectivePage">Objective</Link></li>
+                    <li><Link to="CoursesPage">Courses</Link></li>
+                    <li><Link to="InternshipsPage">Internships</Link></li>
+                    <li><Link to="ResearchPage">Research</Link></li>
                 </ul>
             </nav>
         </div>
