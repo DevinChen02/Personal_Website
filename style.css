@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+
+header {
+    background-color: #43434d;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e8eaf6;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+main {
+    background-color: #e8eaf6;
+    padding: 20px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #1a7e6a;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+table, th, td {
+        border: 1px solid #ccc;
+    }
+    
+    th {
+        background-color: #1a7e6a;
+        color: #fff;
+    }
+    
+    th, td {
+        padding: 15px;
+        text-align: left;
+    }
+    
+    a {
+        color: #1a237e; /* This will give your link the dark blue color */
+    }
+    
+    a:hover {
+        color: #e8eaf6; /* This will give your link the light blue color when hovered over */
+    }
+    

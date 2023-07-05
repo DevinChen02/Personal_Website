@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Courses</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="objective.html">Objective</a>
+            <a href="course.html">Courses</a>
+            <a href="internship.html">Internships</a>
+            <a href="research.html">Research</a>
+        </nav>
+    </header>
+    <main>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Current')">Current Courses</button>
+            <button class="tablinks" onclick="openTab(event, 'Past')">Past Courses</button>
+        </div>
+        
+        <div id="Current" class="tabcontent">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course Code</th>
+                        <th>Title</th>
+                        <th>Published Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>COGS 14A</td>
+                        <td><a href="./Courses_folder/COGS 14A/Week1Reflection.md">Week1Reflection</a></td>
+                        <td>2023-07-04</td>
+                    </tr>
+                    <tr>
+                        <td>COGS 118A</td>
+                        <td><a href="./Courses_folder/COGS 118A/Week1Reflection.ipynb">Week1Reflection</a></td>
+                        <td>2023-07-04</td>
+                    </tr>
+                    <tr>
+                        <td>COGS 186</td>
+                        <td><a href="./Courses_folder/COGS 186/Week1Reflection.ipynb">Week1Reflection</a></td>
+                        <td>2023-07-04</td>
+                    </tr>
+                    <!-- Add more courses as needed -->
+                </tbody>
+            </table>
+        </div>
+        
+        <div id="Past" class="tabcontent">
+            <!-- List of past courses here -->
+        </div>
+    </main>
+</body>
+</html>
